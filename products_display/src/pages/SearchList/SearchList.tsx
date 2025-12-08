@@ -14,7 +14,7 @@ export function SearchList({ search, products, onSelect }: Props) {
 
   const filtered = products
     .filter(p => p.name.toLowerCase().includes(search.toLowerCase()))
-    .slice(0, 5) // optional: limit results
+    .slice(0, 5)
 
   if (filtered.length === 0) return null
 
