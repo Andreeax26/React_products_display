@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 import './searchlist.css'
 
+/*Search list*/
+
 type Product = { id: string; name: string }
 
 type Props = {
