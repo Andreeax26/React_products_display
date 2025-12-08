@@ -23,6 +23,7 @@ type Product = {
 export function Home() {
     const [products, setProducts] = useState<Product[]>([]);
 
+
     useEffect( () =>{
         axios.get<Product[]>('http://localhost:8055/products')
          .then((response) => {

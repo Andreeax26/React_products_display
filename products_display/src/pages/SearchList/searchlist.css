@@ -1,0 +1,25 @@
+.search-list {
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  z-index: 2000;
+}
+
+.search-list li {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.search-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.search-list li a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}

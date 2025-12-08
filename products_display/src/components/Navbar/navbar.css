@@ -12,6 +12,11 @@
     z-index: 1000;
     padding: 0 2rem;
     display: flex;
+    flex-direction: column;
+}
+
+.search-item{
+    display: flex;
 }
 
 .search-wrapper{
@@ -39,6 +44,10 @@
 
 .search-wrapper #search-icon{
     font-size: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border: none;
 }
 
 .logo{
