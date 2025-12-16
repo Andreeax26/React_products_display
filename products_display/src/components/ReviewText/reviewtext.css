@@ -1,0 +1,20 @@
+.review-text {
+  max-height: 3.6em;        
+  line-height: 1.2em;
+  overflow: hidden;
+  margin: 0;
+}
+
+.review-text.expanded {
+  max-height: none;         
+}
+
+.view-more-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
